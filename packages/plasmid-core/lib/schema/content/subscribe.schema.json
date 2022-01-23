@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "pattern": "^%subscribe$"
+    },
+    "options": {
+    	"type": "object",
+    	"properties": {
+    		"alias": {
+    			"type": "string"
+    		}
+    	}
+    }
+  },
+  "required": ["type"]
+}
